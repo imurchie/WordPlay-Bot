@@ -34,7 +34,7 @@ class WordPlay
         "you"
       end
     end
-    p "    #{s}"
+    
     s.gsub(/^me\b/i, "i")
   end
 end

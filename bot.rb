@@ -97,7 +97,7 @@ class Bot
     
     # if there were no matches, add the default ones
     responses << @data[:responses][:default] if responses.empty?
-    p responses
+    
     # flatten the blocks of responses to a flat array
     responses.flatten
   end
